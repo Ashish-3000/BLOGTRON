@@ -1,3 +1,3 @@
 # BLOGTRON
 https://blogtron.herokuapp.com/
-A blogging site with firebase authentication 
+A blog web application using MERN stack
