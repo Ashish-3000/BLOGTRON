@@ -1,0 +1,22 @@
+routes
+    Home
+    compose
+    about
+    Tags
+    author's page
+
+backend 
+    connection with mongodb
+    login with firebase
+    tags created and uploaded on mongodb
+
+
+    create blogs schema 
+    send all the blogs to the frontend on home route send
+    10 and after reaching 8 send request for 10 more
+    always put the latest blogs on the top
+
+    filter on the basis of tags
+
+    the user schema is maintained by firebase so need to 
+    create

@@ -1,0 +1,41 @@
+.about1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.about1 div {
+  margin: 1rem;
+}
+.about2 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.imgwrapper {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.imgwrapper img {
+  border-radius: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .about1 {
+    flex-direction: column-reverse;
+  }
+}

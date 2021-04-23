@@ -1,0 +1,12 @@
+.body {
+  line-height: 1.5;
+}
+a {
+  /* 100+1=101 priority score, yay! */
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}

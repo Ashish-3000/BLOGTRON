@@ -1,0 +1,4 @@
+.myboard {
+  display: flex;
+  flex-direction: row;
+}

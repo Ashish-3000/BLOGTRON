@@ -1,0 +1,35 @@
+.navi {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.navi-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navi-left div {
+  padding-left: 1rem;
+  font-size: large;
+}
+.hamburger {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .navi-left {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger div {
+    padding: 0.2rem 1.5rem;
+    background-color: black;
+  }
+  .div2 {
+    margin: 0.5rem 0rem;
+  }
+}
